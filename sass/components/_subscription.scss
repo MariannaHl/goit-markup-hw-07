@@ -1,0 +1,52 @@
+.subscription {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 93px;
+
+  width: 570px;
+  height: 86px;
+}
+
+.subscriprion__email-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  color: var(--main-white-color);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+
+  transition: border-color var(--animation), outline var(--animation);
+
+  &:focus {
+    border-color: var(--accent-color);
+    outline: var(--accent-color);
+  }
+}
+.subscriprion__sign-btn {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--main-white-color);
+
+  width: 200px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--accent-color);
+  border-color: transparent;
+  border-radius: 4px;
+  margin-left: 12px;
+}
+
+.subscriprion__sign-svg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+
+  margin-left: 10px;
+}
